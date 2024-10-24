@@ -1,0 +1,144 @@
+:root {
+    /* Familles de polices */
+    --Young-Serif: 'Young Serif', serif;
+    
+    --Outfit-Serif: 'Outfit', sans-serif;
+
+    /* Poids de police */
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Couleur des écritures */
+    --bg-body : hsl(30, 54%, 90%);
+
+
+    /* Couleur de fond section principale*/
+    --bg-section-principale :  hsl(0, 0%, 100%);
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: hsl(30, 54%, 90%);
+}
+
+
+main {
+    display: block;
+}
+
+
+/*---------------------------
+|       BOUTON RETOUR       | 
+---------------------------*/
+
+
+.home-content {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 3%;
+    background-color: hsl(0, 0%, 100%);
+    border: solid 1px red;
+    border-radius: 8px;
+}
+
+
+/*---------------------------
+|       SECTION IMAGE       | 
+---------------------------*/
+
+.container-image {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    margin-top: 5%;
+}
+
+
+.container-image .bloc-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.bloc-img img{
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+}
+
+
+/*---------------------------
+|      SECTION RECETTE      | 
+---------------------------*/
+
+
+.container-recette {
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+    /* border: 1px solid red; */
+}
+
+
+.container-recette .title-description {
+    width: 80%; 
+    padding-left: 7%;
+    margin-left: 3%;
+    /* border: 1px solid red; */
+}
+
+
+.container-recette .title-description h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+.container-recette .title-description p {
+    font-size: var(--Young-Serif);
+    font-weight: var(--font-weight-regular);
+}
+
+
+/*----------------
+|      TIMER     | 
+----------------*/
+
+.container-recette .bloc-timer {
+    width: 80%;
+    margin-left: 6%;
+    padding-left: 7%;
+    border-radius: 8px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+
+.bloc-timer .title-time h3{
+    color: hsl(332, 51%, 32%) ;
+}
+
+
+
+.container-recette .list-timer ul li:nth-child(2),
+.container-recette .list-timer ul li:nth-child(3) {
+    margin-top: 3%;
+}
+
+/*----------------
+|      TIMER     | 
+----------------*/
+
+.separation-bloc {
+    width: 85%;
+    margin-top: 3%;
+    margin-left: 6%;
+
+}
