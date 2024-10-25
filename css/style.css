@@ -19,6 +19,17 @@
 }
 
 
+@font-face {
+    font-family: 'Outfit';
+    src: url('../../recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Young-serif';
+    src: url('../../recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -262,7 +273,6 @@ main {
 .container-nutrition .title-nutrition {
     width: 80%;
     padding-left: 5%;
-    border: 1px solid red;
 }
 
 .container-nutrition .title-nutrition h1 {
@@ -278,7 +288,17 @@ main {
 
 
 .container-nutrition .details-nutrition {
-    width: 100%;
+    width: 80%;
     display: block;
-    padding-left: 10%;
+    padding-left: 6%;
+    border: 1px solid red;
 }
+
+
+
+
+.container-nutrition .details-nutrition .list-items hr {
+    max-width: 100%;
+}
+
+
